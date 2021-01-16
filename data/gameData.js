@@ -3,7 +3,7 @@ const games = [
     id: 1,
     title: "DOOM Eternal",
     teaser:
-      "Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.",
+      "Hell’s armies have invaded Earth. Become the Slayer and stop the final destruction of humanity.",
     description:
       "Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity. The only thing they fear... is you.",
     rating: 5,
@@ -23,7 +23,7 @@ const games = [
     id: 2,
     title: "Ori and the Will of the Wisps",
     teaser:
-      "Play the critically acclaimed masterpiece. Embark on a new journey in a vast, exotic world where you’ll encounter towering enemies and challenging puzzles on your quest to unravel Ori’s destiny.",
+      "Embark on a new journey in a vast, exotic world where you’ll encounter towering enemies and challenging puzzles.",
     description:
       "The little spirit Ori is no stranger to peril, but when a fateful flight puts the owlet Ku in harm’s way, it will take more than bravery to bring a family back together, heal a broken land, and discover Ori’s true destiny. From the creators of the acclaimed action-platformer Ori and the Blind Forest comes the highly anticipated sequel. Embark on an all-new adventure in a vast world filled with new friends and foes that come to life in stunning, hand-painted artwork. Set to a fully orchestrated original score, Ori and the Will of the Wisps continues the Moon Studios tradition of tightly crafted platforming action and deeply emotional storytelling.",
     rating: 4.5,
@@ -43,7 +43,7 @@ const games = [
     id: 3,
     title: "Star Wars Battlefront II",
     teaser:
-      "Be the hero in the ultimate STAR WARS™ battle fantasy with STAR WARS™ Battlefront™ II: Celebration Edition!",
+      "Embark on an endless Star Wars™ journey from the best-selling Star Wars™ video game franchise of all time.",
     description:
       "Embark on an endless Star Wars™ journey from the best-selling Star Wars™ video game franchise of all time. Experience rich multiplayer battlegrounds across all three eras - prequel, classic and new trilogy - or rise as a new hero and discover an emotionally gripping single-player story spanning thirty years.",
     rating: 4,
@@ -73,9 +73,9 @@ const games = [
     screenshots: [
       require("../assets/images/games/needforspeed_2.png"),
       require("../assets/images/games/needforspeed_3.jpg"),
-      require("../assets/images/games/needforspeed_4.png"),
+      require("../assets/images/games/needforspeed_4.jpg"),
       require("../assets/images/games/needforspeed_5.jpg"),
-      require("../assets/images/games/needforspeed_6.jpg"),
+      require("../assets/images/games/needforspeed_6.png"),
     ],
     backgroundColor: "#9d44b5",
   },
@@ -83,7 +83,7 @@ const games = [
     id: 5,
     title: "Fall Guys: Ultimate Knockout",
     teaser:
-      "Fall Guys is a massively multiplayer party game with up to 60 players online in a free-for-all struggle through round after round of escalating chaos until one victor remains!",
+      "Play with up to 60 players online in a free-for-all struggle through round after round of escalating chaos until one victor remains!",
     description:
       "Fall Guys: Ultimate Knockout flings hordes of contestants together online in a mad dash through round after round of escalating chaos until one victor remains! Battle bizarre obstacles, shove through unruly competitors, and overcome the unbending laws of physics as you stumble towards greatness. Leave your dignity at the door and prepare for hilarious failure in your quest to claim the crown!",
     rating: 3.5,
@@ -103,7 +103,7 @@ const games = [
     id: 6,
     title: "Microsoft Flight Simulator",
     teaser:
-      "From light planes to wide-body jets, fly highly detailed and accurate aircraft in the next generation of Microsoft Flight Simulator. Test your piloting skills against the challenges of night flying, real-time atmospheric simulation and live weather in a dynamic and living world.",
+      "Fly highly detailed and accurate aircraft in the next generation of Microsoft Flight Simulator. Test your piloting skills against the challenges of a dynamic and living world.",
     description:
       "From light planes to wide-body jets, fly highly detailed and accurate aircraft in the next generation of Microsoft Flight Simulator. Test your piloting skills against the challenges of night flying, real-time atmospheric simulation and live weather in a dynamic and living world. Create your flight plan to anywhere on the planet. Microsoft Flight Simulator includes 20 highly detailed planes with unique flight models and 30 hand-crafted airports.",
     rating: 3,
@@ -123,7 +123,7 @@ const games = [
     id: 7,
     title: "FIFA 21",
     teaser:
-      "It’s time for kick off. Create your team and win your way to the top of the division in FIFA 21. Lead your team to victory in campaign mode or compete with friends in FIFA Ultimate Team. Team up on the street or in the stadium and enjoy bigger victories with your friends. FIFA 21 will offer dual entitlement so you can get a free upgrade to the retrospective next-gen console",
+      "Lead your team to victory in campaign mode or compete with friends in FIFA Ultimate Team.",
     description:
       "It’s time for kick off. Create your team and win your way to the top of the division in FIFA 21. Lead your team to victory in campaign mode or compete with friends in FIFA Ultimate Team. Team up on the street or in the stadium and enjoy bigger victories with your friends. FIFA 21 will offer dual entitlement so you can get a free upgrade to the retrospective next-gen console",
     rating: 3,
@@ -143,7 +143,7 @@ const games = [
     id: 8,
     title: "The Witcher 3: Wild Hunt",
     teaser:
-      "As war rages on throughout the Northern Realms, you take on the greatest contract of your life — tracking down the Child of Prophecy, a living weapon that can alter the shape of the world.",
+      "You take on the greatest contract of your life — tracking down the Child of Prophecy, a living weapon that can alter the shape of the world.",
     description:
       "The Witcher: Wild Hunt is a story-driven open world RPG set in a visually stunning fantasy universe full of meaningful choices and impactful consequences. In The Witcher, you play as professional monster hunter Geralt of Rivia tasked with finding a child of prophecy in a vast open world rich with merchant cities, pirate islands, dangerous mountain passes, and forgotten caverns to explore.",
     rating: 5,
@@ -158,6 +158,26 @@ const games = [
       require("../assets/images/games/witcher3_6.jpg"),
     ],
     backgroundColor: "#f4faff",
+  },
+  {
+    id: 9,
+    title: "Animal Crossing: New Horizons",
+    teaser:
+      "Live at your own pace as you garden, fish, decorate, hunt for bugs and fossils, get to know the animal residents, and more.",
+    description:
+      "Live life at your own pace as you garden, fish, decorate, hunt for bugs and fossils, get to know the animal residents, and more. The time of day and seasons match real life, so something is happening on your island whether you’re there or not.",
+    rating: 4,
+    category: ["Casual", "Multiplayer"],
+    age: "3+",
+    cover: require("../assets/images/games/animalcrossing_1.png"),
+    screenshots: [
+      require("../assets/images/games/animalcrossing_2.jpg"),
+      require("../assets/images/games/animalcrossing_3.jpg"),
+      require("../assets/images/games/animalcrossing_4.jpg"),
+      require("../assets/images/games/animalcrossing_5.jpg"),
+      require("../assets/images/games/animalcrossing_6.jpg"),
+    ],
+    backgroundColor: "#008077",
   },
 ];
 

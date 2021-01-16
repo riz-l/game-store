@@ -1,17 +1,25 @@
 // Import: Dependencies
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { StatusBar } from "react-native";
 
 // Import: Data
 import categoryList from "../../../data/categories";
+import games from "../../../data/gameData";
 
 // Import: Elements
 import {
   Avatar,
   Categories,
   Category,
+  CategoryDot,
   CategoryName,
   Container,
+  Game,
+  GameCover,
+  GameImage,
+  GameInfo,
+  Games,
+  GameTitle,
   Header,
 } from "./HomeScreen.elements";
 
@@ -23,8 +31,30 @@ export default function HomeScreen() {
   // State: selectedCategory
   const [selectedCategory, setSelectedCategory] = useState("All");
 
+  // Ref: gamesRef
+  const gamesRef = useRef();
+
   const changeCategory = (category) => {
+    gamesRef.current.scrollToOffset({ x: 0, y: 0 });
     setSelectedCategory(category);
+  };
+
+  const GameItem = (game) => {
+    return (
+      <Game>
+        <GameCover source={game.cover} />
+        <GameInfo backgroundColor={game.backgroundColor}>
+          <GameImage source={game.cover} />
+          <GameTitle>
+            <Text medium bold>
+              {game.title}
+            </Text>
+
+            <Text small>{game.teaser}</Text>
+          </GameTitle>
+        </GameInfo>
+      </Game>
+    );
   };
 
   return (
@@ -55,10 +85,23 @@ export default function HomeScreen() {
               >
                 {category}
               </CategoryName>
+              {selectedCategory === category && <CategoryDot />}
             </Category>
           );
         })}
       </Categories>
+
+      <Games
+        data={games.filter((game) => {
+          return (
+            game.category.includes(selectedCategory) ||
+            selectedCategory === "All"
+          );
+        })}
+        keyExtractor={(item) => String(item.id)}
+        renderItem={({ item }) => GameItem(item)}
+        ref={gamesRef}
+      />
     </Container>
   );
 }

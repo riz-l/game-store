@@ -22,6 +22,14 @@ export const Category = styled.TouchableOpacity`
   margin: 0 16px;
 `;
 
+// Element: CategoryDot
+export const CategoryDot = styled.View`
+  border-radius: 3px;
+  background-color: #819ee5;
+  height: 6px;
+  width: 6px;
+`;
+
 // Element: CategoryName
 export const CategoryName = styled(Text)`
   color: ${(props) => (props.selected ? "#819ee5" : "#9a9a9a")};
@@ -34,7 +42,46 @@ export const Container = styled.SafeAreaView`
   flex: 1;
 `;
 
-// Element: Container
+// Element: Game
+export const Game = styled.TouchableOpacity`
+  margin-bottom: 32px;
+`;
+
+// Element: GameCover
+export const GameCover = styled.Image`
+  height: 300px;
+  width: 100%;
+`;
+
+// Element: GameImage
+export const GameImage = styled.Image`
+  border-radius: 8px;
+  height: 50px;
+  width: 60px;
+`;
+
+// Element: GameInfo
+export const GameInfo = styled.View`
+  align-items: center;
+  border-radius: 12px;
+  flex-direction: row;
+  margin: -50px 16px 0 16px;
+  padding: 16px;
+`;
+
+// Element: Games
+export const Games = styled.FlatList`
+  flex: 1;
+  margin-top: 32px;
+`;
+
+// Element: GameTitle
+export const GameTitle = styled.View`
+  flex-shrink: 1;
+  margin: 0 8px 0 16px;
+`;
+
+// Element: Header
 export const Header = styled.View`
   align-items: center;
   flex-direction: row;
