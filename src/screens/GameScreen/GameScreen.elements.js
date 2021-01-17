@@ -4,6 +4,8 @@ import { Text } from "../../components";
 
 // Element: BackButton
 export const BackButton = styled.TouchableOpacity`
+  background-color: #ffffff;
+  border-radius: 10px;
   left: 16px;
   position: absolute;
   top: 48px;
@@ -13,6 +15,7 @@ export const BackButton = styled.TouchableOpacity`
 export const Description = styled(Text)`
   line-height: 22px;
   margin: 8px 16px 0 16px;
+  padding-bottom: 24px;
 `;
 
 // Element: Download

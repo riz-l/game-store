@@ -56,7 +56,7 @@ export default function GameScreen({ route, navigation }) {
       <GameArtContainer>
         <GameArt source={game.cover} />
         <BackButton onPress={() => navigation.goBack()}>
-          <Ionicons name="ios-close" size={48} color="#ffffff" />
+          <Ionicons name="ios-close" size={48} color="#343434" />
         </BackButton>
       </GameArtContainer>
 
