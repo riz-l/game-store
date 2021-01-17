@@ -17,7 +17,7 @@ const games = [
       require("../assets/images/games/doom_5.jpg"),
       require("../assets/images/games/doom_6.jpg"),
     ],
-    backgroundColor: "#824571",
+    backgroundColor: "#30171a",
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ const games = [
       require("../assets/images/games/ori_5.jpg"),
       require("../assets/images/games/ori_6.jpg"),
     ],
-    backgroundColor: "#555e8b",
+    backgroundColor: "#3a3ccf",
   },
   {
     id: 3,
@@ -57,7 +57,7 @@ const games = [
       require("../assets/images/games/battlefront_5.jpg"),
       require("../assets/images/games/battlefront_6.jpg"),
     ],
-    backgroundColor: "#eef0f2",
+    backgroundColor: "#161d37",
   },
   {
     id: 4,
@@ -77,13 +77,13 @@ const games = [
       require("../assets/images/games/needforspeed_5.jpg"),
       require("../assets/images/games/needforspeed_6.png"),
     ],
-    backgroundColor: "#9d44b5",
+    backgroundColor: "#3b0f4c",
   },
   {
     id: 5,
     title: "Fall Guys: Ultimate Knockout",
     teaser:
-      "Play with up to 60 players online in a free-for-all struggle through round after round of escalating chaos until one victor remains!",
+      "Play with 60 players online through round after round of escalating chaos until one victor remains!",
     description:
       "Fall Guys: Ultimate Knockout flings hordes of contestants together online in a mad dash through round after round of escalating chaos until one victor remains! Battle bizarre obstacles, shove through unruly competitors, and overcome the unbending laws of physics as you stumble towards greatness. Leave your dignity at the door and prepare for hilarious failure in your quest to claim the crown!",
     rating: 3.5,
@@ -97,13 +97,13 @@ const games = [
       require("../assets/images/games/fallguys_5.jpg"),
       require("../assets/images/games/fallguys_6.jpg"),
     ],
-    backgroundColor: "#80ffec",
+    backgroundColor: "#00b1a5",
   },
   {
     id: 6,
     title: "Microsoft Flight Simulator",
     teaser:
-      "Fly highly detailed and accurate aircraft in the next generation of Microsoft Flight Simulator. Test your piloting skills against the challenges of a dynamic and living world.",
+      "Fly accurate aircraft in the next generation of Microsoft Flight Simulator's dynamic and living world.",
     description:
       "From light planes to wide-body jets, fly highly detailed and accurate aircraft in the next generation of Microsoft Flight Simulator. Test your piloting skills against the challenges of night flying, real-time atmospheric simulation and live weather in a dynamic and living world. Create your flight plan to anywhere on the planet. Microsoft Flight Simulator includes 20 highly detailed planes with unique flight models and 30 hand-crafted airports.",
     rating: 3,
@@ -117,7 +117,7 @@ const games = [
       require("../assets/images/games/flightsimulator_5.jpg"),
       require("../assets/images/games/flightsimulator_6.jpg"),
     ],
-    backgroundColor: "#759fbc",
+    backgroundColor: "#257ccb",
   },
   {
     id: 7,
@@ -137,13 +137,13 @@ const games = [
       require("../assets/images/games/fifa21_5.jpg"),
       require("../assets/images/games/fifa21_6.jpg"),
     ],
-    backgroundColor: "#3c0cc0",
+    backgroundColor: "#7d42f4",
   },
   {
     id: 8,
     title: "The Witcher 3: Wild Hunt",
     teaser:
-      "You take on the greatest contract of your life — tracking down the Child of Prophecy, a living weapon that can alter the shape of the world.",
+      "Take on the greatest contract of all — track down the Child of Prophecy, a living weapon that can alter the shape of the world.",
     description:
       "The Witcher: Wild Hunt is a story-driven open world RPG set in a visually stunning fantasy universe full of meaningful choices and impactful consequences. In The Witcher, you play as professional monster hunter Geralt of Rivia tasked with finding a child of prophecy in a vast open world rich with merchant cities, pirate islands, dangerous mountain passes, and forgotten caverns to explore.",
     rating: 5,
@@ -157,7 +157,7 @@ const games = [
       require("../assets/images/games/witcher3_5.jpg"),
       require("../assets/images/games/witcher3_6.jpg"),
     ],
-    backgroundColor: "#f4faff",
+    backgroundColor: "#111a21",
   },
   {
     id: 9,
@@ -177,7 +177,7 @@ const games = [
       require("../assets/images/games/animalcrossing_5.jpg"),
       require("../assets/images/games/animalcrossing_6.jpg"),
     ],
-    backgroundColor: "#008077",
+    backgroundColor: "#5693ca",
   },
 ];
 
