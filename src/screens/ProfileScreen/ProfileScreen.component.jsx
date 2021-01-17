@@ -72,7 +72,7 @@ export default function ProfileScreen() {
             <Info>
               <Text bold>{item.title}</Text>
               <Text small color="#9a9a9a">
-                {Math.floor(Math.random() * 1000) + 1} Sales
+                {Math.floor(Math.random() * 1000) + 1} hours played
               </Text>
             </Info>
             <Text heavy color="#819ee5">
