@@ -27,7 +27,7 @@ import {
 import { Text } from "../../components";
 
 // Screen: HomeScreen
-export default function HomeScreen() {
+export default function HomeScreen({ navigation }) {
   // State: selectedCategory
   const [selectedCategory, setSelectedCategory] = useState("All");
 
@@ -41,7 +41,7 @@ export default function HomeScreen() {
 
   const GameItem = (game) => {
     return (
-      <Game>
+      <Game onPress={() => navigation.navigate("GameScreen", { game: game })}>
         <GameCover source={game.cover} />
         <GameInfo backgroundColor={game.backgroundColor}>
           <GameImage source={game.cover} />
